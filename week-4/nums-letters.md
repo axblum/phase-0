@@ -6,7 +6,7 @@
   * Integer -- An integer is a positive or negative number that does not contain a decimal. Example (1,-10)
   * Float -- A float is a number that contains a decimal point. Example(1.0,2.4)
 * What is the difference between float and integer division? How would you explain the difference to someone who doesn't know anything about programming?
-  *
+  * Because floats include a decimal and integers do not, the way they handle  division is different. When you divide two integers the end result will be an integer as well. This can lead to some unexpected outcomes if you are expecting the decimal to not be lost in the result. 
 
 ## Release 2
 * Hours in a year
