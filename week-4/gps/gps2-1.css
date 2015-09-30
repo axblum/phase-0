@@ -1,0 +1,53 @@
+body,
+html {
+margin:0;
+padding:0;
+color:#000;
+background:purple;
+}
+
+header {
+    background-color: gray;
+    margin-top: 0;
+}
+
+footer {
+    background-color: green;
+    clear: both;
+}
+
+
+.column-1 {
+    background-color: purple;
+    float: left;
+    width: 50%;
+    margin: 0em;
+    padding: 0em 0em 0em 0em;
+    /*border: red 1px solid;*/
+    height: 100%;
+}
+.column-2 {
+    background-color: purple;
+    float: left;
+    width: 50%;
+    margin: 0em;
+    padding: 0em 0em 0em 0em;
+    /*border: red 1px solid;*/
+    height: 100%;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 0;
+}
+
+img {
+    position: relative;
+    left: 10em;
+}
+
+header > p {
+    padding: 2em;
+}
