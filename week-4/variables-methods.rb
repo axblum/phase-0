@@ -17,3 +17,16 @@ def number
 end
 
 number
+
+# How do you define a local variable?
+# A variable is defined by using the equal sign. (bar = baz)
+# How do you define a method?
+# Methods are defined by the "def" keyword
+# What is the difference between a local variable and a method?
+# A local variable is a stored entity. Where as a method is a stored procedure.
+# How do you run a ruby program from the command line?
+# ruby  <filename>
+# How do you run an RSpec file from the command line?
+#rspec <filename>
+# What was confusing about this material? What made sense?
+#I think this information is pretty straight forward. It was all pretty clear.
