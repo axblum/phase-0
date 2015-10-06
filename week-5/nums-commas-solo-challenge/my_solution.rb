@@ -16,7 +16,7 @@
 # What are the steps needed to solve the problem?
 # The code for this will take in an number and place the commas in the appropriate place
 # We can start from the back of the array, placing an comma every three digits until its less than 3.
-# Wondered if there was a more idiomatic way for me to iterate and skip steps. (I tried below and it crashed and burned)
+# Wondered if there was a more idiomatic way for me to iterate and skip steps. (I ended up coming back to this and managed to come up with solution by hacking the rubydocs together)
 # 1. Initial Solution
 def separate_comma(number)
 	number = number.to_s.split('')
