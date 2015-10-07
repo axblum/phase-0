@@ -15,7 +15,7 @@ puts 24*365
 ```
 * Minutes in a decade
 ``` ruby
-puts 24*365
+puts 24 * 60 * 365 * 10
 ```
 ## Release 7
 * How does Ruby handle addition, subtraction, multiplication, and division of numbers?
