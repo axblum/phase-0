@@ -5,7 +5,7 @@
 
 # 0. Pseudocode
 # => A die has the following properties : sides
-# => If sides is less than 1 sideraise and ArgumentError
+# => If sides is less than 1 side raise and ArgumentError
 # => Roll
 # => Get a random number that is equal to the possible sides
 # => Profit
