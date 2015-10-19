@@ -42,7 +42,12 @@ p nested_data.fetch(:array).at(1).fetch(:hash)
 number_array = [5, [10, 15], [20,25,30], 35]
 
 number_array.each { |element| p element}
-number_array.each { |element| puts element}
+#number_array.each { |element| puts 5 + element}
+number_array.map!{|element| if element.kind_of?(Array)
+element.map!{|number| number + 5}
+else
+element +5
+end}
 puts number_array
 
 # Bonus:
