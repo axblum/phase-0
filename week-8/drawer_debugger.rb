@@ -115,6 +115,13 @@ silverware_drawer.view_contents
 
 
 
+#Reflection
+# What concepts did you review or learn in this challenge?
+# The biggest thing that I learned about this exercise is that you can't use include on objects :( must use detect)
+# What is still confusing to you about Ruby?
+# compared to JS ruby is really easy to understand now.
+# What are you going to study to get more prepared for Phase 1?
+# I am going to look at the other reviews 
 
 
 
